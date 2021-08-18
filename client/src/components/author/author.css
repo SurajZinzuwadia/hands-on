@@ -1,0 +1,36 @@
+.profile-image {
+  height: 200px;
+  width: auto;
+  margin: 20px;
+  background: url("../../profile.png") no-repeat;
+  background-size: 100% 100%;
+}
+
+.about-main{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: flex-start;
+  margin: -60px;
+}
+
+.author-name {
+  font-size: 30px;
+}
+
+.author-profession{
+  padding: 5px;
+  font-size: 20px;
+  color: rgba(137, 196, 244, 1)
+}
+
+.tabs{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  margin: 5px;
+}
